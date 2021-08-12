@@ -1,0 +1,119 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.head {
+    width: 90%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.header img {
+    width: 150px;
+}
+.btn {
+    border: 2px solid hsl(321, 100%, 78%);
+    border-radius: 24px;
+    color: hsl(321, 100%, 78%);
+}
+.container {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+.intro .container p:first-of-type {
+    width: 45%;
+    margin: auto;
+}
+.intro .container p:last-of-type {
+    background-color: hsl(322, 100%, 66%);
+    width: 20%;
+    margin: 20px auto;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 24px;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 600;
+}
+.section .container img {
+    width: 80%;
+}
+.follow {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+    align-items: center;
+    margin-top: 30px;
+}
+.follow  p:first-of-type {
+    font-size: 50px;
+    margin: 0;
+}
+.follow img {
+    margin: 0 100px 0 0;
+    width:25% !important
+}
+.grow .container {
+    display: grid;
+    grid-template-columns: repeat(2 , 50%);
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+.grow .container div {
+    width: 90%;
+    text-align: left;
+}
+.grow .container img {
+    max-width: 100%;
+    width: 90%;
+}
+.submit .container h2 {
+    font-size: 35px;
+    font-weight: 700;
+}    
+.submit .container p {
+    background-color: hsl(322, 100%, 66%);
+    width: 30%;
+    margin: 30px auto;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+}
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    text-align: left;
+    margin: 100px auto 0;
+}
+.footer .container input {
+    display: inline;
+    width: 60%;
+    height: 35px;
+    border: 2px solid transparent;
+    border-radius: 5%;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+.footer .container .right p:last-of-type {
+    display: inline;
+    background-color: hsl(322, 100%, 66%);
+    padding: 10px 15px;
+    color: white;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 5%;
+}
+
+
+
